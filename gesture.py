@@ -333,10 +333,7 @@ while(1):
 	y_mask = makeMask( hsv, yellow_range)
 
 	py_pos = y_pos 
-c*****************************************
-	You have entered calibration mode.
- Use the trackbars to calibrate and press SPACE when done.
-	Press D to use the default settings.
+
 
 	b_cen = drawCentroid( frame, b_area, b_mask, showCentroid)
 	r_cen = drawCentroid( frame, r_area, r_mask, showCentroid)	
@@ -355,18 +352,18 @@ c*****************************************
 		break
 
 cv2.destroyAllWindows()
-// **********************************************************************
-	You have entered calibration mode.
- Use the trackbars to calibrate and press SPACE when done.
-	Press D to use the default settings.
-**********************************************************************
-	Calibration Successfull...
-**********************************************************************
-	Press P to turn ON and OFF mouse simulation.
-	Press C to display the centroid of various colours.
-	Press R to recalibrate color ranges.
-	Press ESC to exit.
-**********************************************************************
-Showing Centroids...
-Mouse simulation ON...
-Mouse simulation OFF...
+#**********************************************************************
+#	You have entered calibration mode.
+#       Use the trackbars to calibrate and press SPACE when done.
+#	Press D to use the default settings.
+#**********************************************************************
+#	Calibration Successfull...
+#**********************************************************************
+#	Press P to turn ON and OFF mouse simulation.
+#	Press C to display the centroid of various colours.
+#	Press R to recalibrate color ranges.
+#	Press ESC to exit.
+#**********************************************************************
+#Showing Centroids...
+#Mouse simulation ON...
+#Mouse simulation OFF...
